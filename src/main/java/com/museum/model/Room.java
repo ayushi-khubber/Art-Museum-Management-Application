@@ -20,6 +20,11 @@ public class Room {
     public String getExhibit() { return exhibit; }
     public int getCapacity() { return capacity; }
     public boolean isBooked() { return booked; }
-    public void setBooked(boolean booked) { this.booked = booked; }
     public String getStatus() { return booked ? "Booked" : "Available"; }
+
+    public void setId(String id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
+    public void setExhibit(String exhibit) { this.exhibit = exhibit; }
+    public void setCapacity(int capacity) { this.capacity = capacity; }
+    public void setBooked(boolean booked) { this.booked = booked; }
 }
